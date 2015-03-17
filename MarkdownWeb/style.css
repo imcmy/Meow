@@ -1,0 +1,248 @@
+	html,body {
+			margin:0;
+			padding:0;
+			font-family: Helvetica, Arial, Verdana, sans-serif;
+			font-size: 90%;
+			background-color: #E3EDCD;
+		}
+		
+		html {
+			overflow: hidden;
+		}
+		
+		textarea {
+			font-family: monospace;
+		}
+		
+		#pageHeader {
+			margin: 0;
+			padding: 15px;
+			text-align: center;
+			margin-bottom: 0;
+			margin-top: 0.4em;
+			color: #766;
+		}
+		
+		#pageHeader h1 {
+			font-size: 3em;
+            margin-bottom: 10px;
+		}
+		
+		#pageHeader * {
+			margin: 0;
+			padding: 0;
+			line-height: 1em;
+			font-weight: 100;
+		}
+
+		#pageHeader a {
+			color: deepskyblue;
+			text-decoration: none;
+			position: relative;
+			z-index: 20;
+		}
+
+		#pageHeader h1 a:hover {
+			color: #fff;
+		}
+		
+		#pageHeader h3 a:hover {
+			text-decoration: underline;
+		}
+
+		#leftContainer, #rightContainer {
+			margin: 0;
+			padding: 0;
+			position: relative;
+			width: 47.5%;
+			margin-top: -1.4em;
+		}
+		
+		#leftContainer {
+			float: left;
+			left: 1.5%;
+		}
+		
+		#rightContainer {
+			float: right;
+			right: 1.5%;
+		}
+		
+		#rightContainer > * {
+			float: right;
+		}
+		
+		.paneHeader {
+			margin: 0;
+			padding: 10px;
+			position: relative;
+			width: 100%;
+			display: block;
+			height: 2em;
+		}
+		
+		.paneHeader * {
+			position: relative;
+			font-weight: 800;
+		}
+		
+		.paneHeader span {
+			color: black;
+			padding: 0 1em;
+			font-size: 150%;
+		}
+		
+		#paneSetting {
+			display: block;
+			margin-left: auto;
+			margin-right: 0.5em;
+			font-size: 110%;
+			font-weight: 900;
+			font-family: Arial, Verdana, sans-serif;
+			background-color: #FFFFFF;
+			color: #444;
+			border: 1px solid #999;
+		}
+		
+		.pane {
+			margin: 0;
+			padding: 0;
+			padding-left: 4px; /* pane padding */
+			width: 100%;
+			border: none;
+			background-color: #eee;
+			display: block;
+			border: 1px solid #888;
+			border-right: 1px solid #000;
+			border-bottom: 1px solid #000;
+		
+			/* note: the panes get their height set with
+		       javascript; see sizeTextAreas(). */
+		
+			/* for now, set a height so things look nice
+			   if the user has javascript disabled */
+			height: 400px;
+		}
+		
+		#previewPane {
+			background-color: #FFFFFF;
+            font-family: "Source Han Sans CN", Arial, "Microsoft YaHei", sans-serif;
+            font-weight: 500;
+		}
+		
+		#outputPane {
+			background-color: #FFFFFF;
+			display: none;
+            font-family: Consolas, monospace;
+            font-size: 14px;
+		}
+		
+		div.pane {
+			overflow: auto;
+		}
+		
+		#inputPane {
+            font-family: Monaco, Consolas, monospace;
+            font-size:13px;
+			background-color: #fff;
+		}
+		
+		#previewPane {
+			padding: 0;
+		}
+
+		#previewPane > * {
+			margin-left: 4px;
+			margin-right: 4px;
+   		}
+
+		#previewPane > blockquote {
+			margin-left: 3em;
+   		}
+
+		#previewPane > :first-child {
+			margin-top: 4px; /* pane padding */
+		}
+
+		#previewPane * {
+			line-height: 1.4em;
+		}
+        #previewPane blockquote {
+            border-left: 4px solid #dddddd;
+            padding: 0 12px;
+            color: #777777; 
+            margin-left: 20px;
+            font-style: italic;
+        }
+
+		#previewPane code {
+            background-color: #FAFAFA;
+            font-family: Consolas, monospace;
+			font-size: 1.3em;
+		}
+		
+		#footer {
+			margin: 0;
+			padding: 0;
+			position: relative;
+			float: left;
+			width: 100%;
+			height: 2.5em;
+			margin-top: 0.5em;
+			font-family: Helvetica, Arial, Verdana, sans-serif;
+		}
+		
+		#footer a {
+			text-decoration: none;
+			color: #666;
+		}
+		
+		#footer a:hover {
+			text-decoration: underline;
+		}
+		
+		#byline {
+			padding-left: 2em;
+			color: #666;
+		}
+		
+		#convertTextControls {
+			position: absolute;
+			right: 5em;
+		}
+		
+		#convertTextButton {
+			line-height: 1em;
+			background-color: #ccbfbf;
+			color: #000;
+			border: none;
+		}
+
+        #clearPage {
+			line-height: 1em;
+			background-color: #ccbfbf;
+			color: #000;
+			border: none;
+		}
+		
+		#convertTextButton:hover {
+			background-color: #fff;
+			color: black;
+		}
+		
+		#convertTextSetting {
+			background-color: #FFFFFF;
+			color: #222;
+			border: 1px solid #999;
+		}
+		
+		#processingTime {
+			margin: 0;
+			padding: 0;
+			width: 4em;
+			text-align: right;
+			color: #999;
+			position: absolute;
+			right: 1em;
+			top: 0;
+		}
