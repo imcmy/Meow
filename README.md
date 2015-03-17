@@ -1,5 +1,5 @@
 # Meow
-A Web Simple Collaboration Markdown Editor
+A Web Simple Collaboration Markdown Editor with an offline version running on Windows
 >Collaborators:
 
 >* Chen Chaohao
