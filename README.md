@@ -14,3 +14,4 @@ See repository [Meow-Windows](https://github.com/Windas/Meow-Windows/) to get ne
 >* Chen Wenxue
 >* Cao Can
 >* Jiang Yuzhu
+>* Wang Tianqing
