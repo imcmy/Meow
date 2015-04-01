@@ -5,13 +5,7 @@ See repository [Meow-Windows](https://github.com/Windas/Meow-Windows/) to get ne
 
 >Collaborators:
 
->* Chen Chaohao
 >* Chen Sihang
->* Liang Yuyi
->* Huang Shuqi
->* Chen Jiayun
->* Chen Hongfei
->* Chen Wenxue
->* Cao Can
->* Jiang Yuzhu
 >* Wang Tianqing
+>* Yue Tianyang
+>* Wen Jifei
